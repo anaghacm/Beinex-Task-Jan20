@@ -1,0 +1,126 @@
+.forms-module {
+    color: $color-primary;
+
+    .req-demo {
+
+        .input-div {
+            position: relative;
+            padding-right: 20px;
+            margin-bottom: 15px;
+
+            &::after {
+                content: '\f007';
+                font-family: FontAwesome;
+                position: absolute;
+                right: 35px;
+                top: 9px;
+                color: #2b98f7;
+            }
+
+            &.email::after {
+                content: '\f0e0';
+            }
+
+            &.country::after {
+                content: '\f57e';
+            }
+
+            &.phone::after {
+                content: '\f095';
+            }
+
+            &.company::after {
+                content: '\f1ad';
+            }
+
+            &.job::after {
+                content: '\f508';
+            }
+
+            &.textareadiv::after {
+                content: '\f075';
+            }
+
+            &.subbut::after {
+                content: '';
+            }
+        }
+
+        input {
+            border: 2px solid #0004;
+            width: 100%;
+            padding: $spacer-md;
+            margin-right: $spacer-2;
+            display: inline-block;
+
+            &:focus {
+                outline: none;
+            }
+
+            &:focus div::after {
+                color: #150d2b;
+            }
+        }
+
+        textarea {
+            border: 2px solid #0004;
+            width: 100%;
+            padding: $spacer-md;
+            margin-bottom: 15px;
+            resize: none;
+
+            &:focus {
+                outline: none;
+            }
+        }
+        .demobtn {
+            background-color: $color-primary;
+            border: none;
+            color: $color-white;
+            border-radius: 0;
+            padding: $spacer-1 $spacer-4;
+            margin-bottom: $spacer-2;
+            position: relative;
+            transition: all 0.5s;
+            cursor: pointer;
+
+            &::after {
+                content: '\f35a';
+                font-family: FontAwesome;
+                position: absolute;
+                right: -15px;
+                top: 12px;
+                transition: all 0.5s;
+                opacity: 0;
+            }
+
+            &:hover {
+                padding-left: 20px;
+                padding-right: 60px;
+            }
+
+            &:hover::after {
+                right: 25px;
+                opacity: 1;
+            }
+        }
+    }
+
+    .forms-heading{
+        font-weight: 600;
+        padding-bottom: $spacer-2;
+    }
+    .nextdiv{
+        padding: $spacer-2 $spacer-0 $spacer-2 70px;
+        border-left: 2px solid #0004;
+    }
+}
+
+@include tablet{
+    .forms-module{
+        .nextdiv{
+            border-left: none;
+            padding-left: $spacer-3;
+        }
+    }
+}

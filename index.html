@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beinex</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Header starts -->
+    <header class="header-module">
+
+        <nav class="navbar navbar-expand-lg bg-body-white">
+            <div class="container topnavbar">
+                <div class="topnavbarleft">
+                    <ul
+                        class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-start flex-nowrap flex-row align-items-center">
+                        <li class="navitem">
+                            <a class="navlink  ps-0 pe-3" href="#" title="linkedIn"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                        <li class="navitem">
+                            <a class="navlink pe-3" href="#" title="facebook"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="navitem">
+                            <a class="navlink pe-3" href="#" title="twitter"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="navitem">
+                            <a class="navlink pe-3" href="#" title="instagram"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li class="item-dot">
+                            <select class="lang" id="language" name="language">
+                                <option value="english">English</option>
+                                <option value="arabic">Arabic</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#topnavbarright" aria-controls="topnavbarright" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="topnavbarright">
+                    <ul class="navbar-nav ms-auto mb-0 pb-0 mb-lg-0 align-items-center">
+                        <li class="nav-item item-dot">
+                            <a class="rightnavlink" href="#" title="Tableau Free Trial">Tableau Free Trial</a>
+                        </li>
+                        <li class="nav-item item-dot">
+                            <a class="rightnavlink" href="#" title="Alteryx Free Trial">Alteryx Free Trial</a>
+                        </li>
+                        <li class="nav-item item-dot">
+                            <a class="rightnavlink" href="#" title="Auraa Free Trial ">Auraa Free Trial</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn-schedule"><i class="fa-solid fa-phone"></i> Schedule a call</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <hr class="nav-divider">
+
+        <nav class="navbar navbar-expand-lg bg-body-white">
+            <div class="container bottomnavbar">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/images/logo.png" alt="Bootstrap" width="150" height="29">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#bottomnavbarright" aria-controls="bottomnavbarright" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="bottomnavbarright">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="bottomnavlink active" aria-current="page" href="#" title="Services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottomnavlink" href="#" title="Partners">Partners</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottomnavlink" href="#" title="Industries">Industries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottomnavlink" href="#" title="Company">Company</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottomnavlink" href="#" title="Events">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottomnavlink" href="#" title="Careers">Careers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottomnavlink" href="#" title="Blog">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottomnavlink" href="#" title="Training">Training</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bottomnavlink" href="#" title="Training">Contact us</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header ends -->
+
+    <!-- Section starts -->
+    <section class="banner-module">
+        <div class="bg-shade"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 banner-content">
+                    <div class="banner-head">
+                        <h2>Beinex supports the launch of AWS
+                            Middle East Region in the UAE region</h2>
+
+                    </div>
+                    <p class="banner-text">Beinex is proud to support Amazon Web Services (AWS) for the launch of AWS
+                        Middle East
+                        Region in the UAE. AWS is a global pioneer in cloud based offerings, with more than 200
+                        services provided from data centers run globally. An AWS Advanced Consulting Partner
+                        Beinex can transform how you run your business digitally by providing you with the true
+                        edge in AWS cloud related implementations and solutions.</p>
+                    <p class="banner-text">And yes, feel free to avail of the incredible Region Launch special offers we
+                        have for you!</p>
+                    <button class="btn demobtn">Request a demo</button>
+                    <button class="btn talkbtn"><i class="fa-regular fa-comment fa-flip-horizontal"></i> Talk to
+                        us</button>
+
+                </div>
+                <div class="col-6"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offers-module">
+        <div class="container">
+            <div class="row">
+                <p class="offer-text">SPECIAL OFFERS IN CONNECTION WITH LAUNCH</p>
+                <div class="d-flex align-items-center justify-content-start discount-text">
+                    <h3 class="discount-head">10% Discount</h3>
+                    <hr class="discount-line">
+                </div>
+            </div>
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="row row-cols-1 row-cols-lg-3 g-4">
+                            <div class="col pt-2">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-magnifying-glass-chart card-icon"></i>
+                                        <h6 class="card-title">Real Time Analytics Using AWS Kinesis</h6>
+                                        <p class="card-text">AWS Kinesis provides a fast and efficient way to
+                                            transform and analyse streaming data in real
+                                            time using Apache Flink. It also allows customers
+                                            to query and analyse data in real time and
+                                            continuously produce insights<span class="d-lg-none d-inline">...</span>
+                                            <span class=" d-lg-inline d-none"> and stateful
+                                                computations to trigger real time actions like
+                                                anomaly detection based on historical data
+                                                trends. Such live data can then be visualised in the
+                                                form of BI dashboards using Tableau or PowerBI.</span>
+                                        </p>
+                                        <p class="card-text d-lg-inline d-none">Experience spot-on visualisation for
+                                            dynamic data
+                                            input flow</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="demobtn">Redeem offer</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col pt-2">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-cloud-arrow-down card-icon"></i>
+                                        <h6 class="card-title">Cloud Readiness Assessment</h6>
+                                        <p class="card-text">A cloud readiness assessment is a process where
+                                            an organisation looks at its resources and IT
+                                            environment and determines if it is capable of
+                                            migrating to the cloud. It is a best practice for any
+                                            organisation migrating all<span class="d-lg-none d-inline">...</span> <span
+                                                class=" d-lg-inline d-none"> of its IT infrastructure, or
+                                                even a single app, to the cloud to perform a cloud
+                                                readiness assessment in order to smoothen the
+                                                migration process and set up a cloud
+                                                environment that fits the organisation s
+                                                requirements.</span></p>
+                                        <p class="card-text d-lg-inline d-none">Embrace the next big tech revolution and
+                                            validate
+                                            if your organisation is cloud-ready.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="demobtn">Redeem offer</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col pt-2">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-chart-line card-icon"></i>
+                                        <h6 class="card-title">Predictive Analytics Models on BI platforms
+                                            Using AWS ML Stack</h6>
+                                        <p class="card-text">The SageMaker ML platform is designed to support
+                                            the end to end ML model lifecycle, from model
+                                            data preparation to model deployment. Its
+                                            modular architecture makes it flexible as well. This
+                                            means customers can choose<span class="d-lg-none d-inline">...</span> <span
+                                                class=" d-lg-inline d-none"> to utilise
+                                                SageMaker independently for model building,
+                                                training, or deployment, enabling the creation of
+                                                predictive analytics models directly on Tableau or
+                                                Power BI dashboards.</span></p>
+                                        <p class="card-text d-lg-inline d-none">Get a seasoned consultant to ingest data
+                                            and
+                                            create ML models based on KPIs provided.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="demobtn">Redeem offer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-lg-3 g-4">
+                            <div class="col pt-2">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-magnifying-glass-chart card-icon"></i>
+                                        <h6 class="card-title">Real Time Analytics Using AWS Kinesis</h6>
+                                        <p class="card-text">AWS Kinesis provides a fast and efficient way to
+                                            transform and analyse streaming data in real
+                                            time using Apache Flink. It also allows customers
+                                            to query and analyse data in real time and
+                                            continuously produce insights<span class="d-lg-none d-inline">...</span>
+                                            <span class=" d-lg-inline d-none"> and stateful
+                                                computations to trigger real time actions like
+                                                anomaly detection based on historical data
+                                                trends. Such live data can then be visualised in the
+                                                form of BI dashboards using Tableau or PowerBI.</span>
+                                        </p>
+                                        <p class="card-text d-lg-inline d-none">Experience spot-on visualisation for
+                                            dynamic data
+                                            input flow</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="demobtn">Redeem offer</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col pt-2">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-cloud-arrow-down card-icon"></i>
+                                        <h6 class="card-title">Cloud Readiness Assessment</h6>
+                                        <p class="card-text">A cloud readiness assessment is a process where
+                                            an organisation looks at its resources and IT
+                                            environment and determines if it is capable of
+                                            migrating to the cloud. It is a best practice for any
+                                            organisation migrating all<span class="d-lg-none d-inline">...</span> <span
+                                                class=" d-lg-inline d-none"> of its IT infrastructure, or
+                                                even a single app, to the cloud to perform a cloud
+                                                readiness assessment in order to smoothen the
+                                                migration process and set up a cloud
+                                                environment that fits the organisation s
+                                                requirements.</span></p>
+                                        <p class="card-text d-lg-inline d-none">Embrace the next big tech revolution and
+                                            validate
+                                            if your organisation is cloud-ready.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="demobtn">Redeem offer</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col pt-2">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <i class="fa-solid fa-chart-line card-icon"></i>
+                                        <h6 class="card-title">Predictive Analytics Models on BI platforms
+                                            Using AWS ML Stack</h6>
+                                        <p class="card-text">The SageMaker ML platform is designed to support
+                                            the end to end ML model lifecycle, from model
+                                            data preparation to model deployment. Its
+                                            modular architecture makes it flexible as well. This
+                                            means customers can choose<span class="d-lg-none d-inline">...</span> <span
+                                                class=" d-lg-inline d-none"> to utilise
+                                                SageMaker independently for model building,
+                                                training, or deployment, enabling the creation of
+                                                predictive analytics models directly on Tableau or
+                                                Power BI dashboards.</span></p>
+                                        <p class="card-text d-lg-inline d-none">Get a seasoned consultant to ingest data
+                                            and
+                                            create ML models based on KPIs provided.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="demobtn">Redeem offer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev car-indicatorleft" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <i class="fa-solid fa-angle-left"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next car-indicatorright" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="casestudy-module">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="d-flex align-items-center justify-content-start casestudy-text">
+                        <p class="redshift-text">AMAZON REDSHIFT CASE STUDY :</p>
+                        <hr class="casestudy-line">
+                    </div>
+                    <h3 class="casestudy-head">Reduction of Operational Costs by 20%</h3>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <p class="casestudy-right">In a significant win compared to the past, a next - generation pharmacy
+                        organisation
+                        successfully reduced operational costs by one - fifth.</p>
+                </div>
+            </div>
+
+            <div class="information-div">
+
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-12  px-3 g-0">
+                                    <i class="fa-solid fa-puzzle-piece carousel-icon"></i>
+                                    <h5 class="heading">The Challenge </h5>
+                                    <p class="content">To help itself with its growing data requirements and to
+                                        honour its SLAs, the organisation was tasked to
+                                        migrate from its data warehouse on premises to a
+                                        high octane data hosting solution. </p>
+                                </div>
+                                <div class="col-lg-4 col-12  px-3 border-col g-0">
+                                    <i class="fa-regular fa-lightbulb carousel-icon"></i>
+                                    <h5 class="heading">Solution</h5>
+                                    <p class="content">It decided to tap into the AWS suite to develop, train
+                                        and deploy predictive maintenance models to foresee
+                                        breakdowns of equipment parts. </p>
+                                </div>
+                                <div class="col-lg-4 col-12  px-3 border-col g-0">
+                                    <i class="fa-solid fa-clipboard carousel-icon"></i>
+                                    <h5 class="heading">Results</h5>
+                                    <ul class="carousel-list">
+                                        <li>
+                                            <p class="content">
+                                                Within a short period, 1000 plus prediction models
+                                                were developed and trained when it came to a
+                                                collective of equipment like valves, pumps,
+                                                ventilation, air conditioning, and heating systems.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="content">10,000 pieces of equipment connected and shall
+                                                benefit from predictive maintenance for the next 5
+                                                years.
+
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="content">
+                                                Savings of 800,000 Euros per year for the company
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-12  px-3 g-0">
+                                    <i class="fa-solid fa-puzzle-piece carousel-icon"></i>
+                                    <h5 class="heading">The Challenge </h5>
+                                    <p class="content">To help itself with its growing data requirements and to
+                                        honour its SLAs, the organisation was tasked to
+                                        migrate from its data warehouse on premises to a
+                                        high octane data hosting solution. </p>
+                                </div>
+                                <div class="col-lg-4 col-12  px-3 border-col g-0">
+                                    <i class="fa-regular fa-lightbulb carousel-icon"></i>
+                                    <h5 class="heading">Solution</h5>
+                                    <p class="content">It decided to tap into the AWS suite to develop, train
+                                        and deploy predictive maintenance models to foresee
+                                        breakdowns of equipment parts. </p>
+                                </div>
+                                <div class="col-lg-4 col-12  px-3 border-col g-0">
+                                    <i class="fa-solid fa-clipboard carousel-icon"></i>
+                                    <h5 class="heading">Results</h5>
+                                    <ul class="carousel-list">
+                                        <li>
+                                            <p class="content">
+                                                Within a short period, 1000 plus prediction models
+                                                were developed and trained when it came to a
+                                                collective of equipment like valves, pumps,
+                                                ventilation, air conditioning, and heating systems.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="content">10,000 pieces of equipment connected and shall
+                                                benefit from predictive maintenance for the next 5
+                                                years.
+
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="content">
+                                                Savings of 800,000 Euros per year for the company
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-12 px-3 g-0">
+                                    <i class="fa-solid fa-puzzle-piece carousel-icon"></i>
+                                    <h5 class="heading">The Challenge </h5>
+                                    <p class="content">To help itself with its growing data requirements and to
+                                        honour its SLAs, the organisation was tasked to
+                                        migrate from its data warehouse on premises to a
+                                        high octane data hosting solution. </p>
+                                </div>
+                                <div class="col-lg-4 col-12 px-3 border-col g-0">
+                                    <i class="fa-regular fa-lightbulb carousel-icon"></i>
+                                    <h5 class="heading">Solution</h5>
+                                    <p class="content">It decided to tap into the AWS suite to develop, train
+                                        and deploy predictive maintenance models to foresee
+                                        breakdowns of equipment parts. </p>
+                                </div>
+                                <div class="col-lg-4 col-12 px-3 border-col g-0">
+                                    <i class="fa-solid fa-clipboard carousel-icon"></i>
+                                    <h5 class="heading">Results</h5>
+                                    <ul class="carousel-list">
+                                        <li>
+                                            <p class="content">
+                                                Within a short period, 1000 plus prediction models
+                                                were developed and trained when it came to a
+                                                collective of equipment like valves, pumps,
+                                                ventilation, air conditioning, and heating systems.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="content">10,000 pieces of equipment connected and shall
+                                                benefit from predictive maintenance for the next 5
+                                                years.
+
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="content">
+                                                Savings of 800,000 Euros per year for the company
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="forms-module">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-12">
+                    <h2 class="forms-heading">Request A Demo</h2>
+                    <form action="" class="req-demo d-flex flex-wrap">
+                        <div class="input-div name w-50">
+                            <input type="text" placeholder="Name" id="name">
+                        </div>
+                        <div class="input-div email w-50">
+                            <input type="text" placeholder="Email" id="email">
+                        </div>
+                        <div class="input-div country w-50">
+                            <input type="text" placeholder="Select Country" id="country">
+                        </div>
+                        <div class="input-div phone w-50">
+                            <input type="text" placeholder="Phone number" id="phone">
+                        </div>
+                        <div class="input-div company w-50">
+                            <input type="text" placeholder="Company" id="company">
+                        </div>
+                        <div class="input-div job w-50">
+                            <input type="text" placeholder="Job role" id="job">
+                        </div>
+                        <div class="input-div textareadiv w-100">
+                            <textarea name="" id="message" cols="30" rows="3" placeholder="Message"></textarea>
+                        </div>
+                        <div class="textareadiv subbut">
+                            <button class="demobtn" type="button" data-bs-toggle="modal"
+                                data-bs-target="#successModal">Submit</button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Request a Demo</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-center">
+                                        <p>
+                                            You have successfully registered for a demo session!
+                                        </p>
+                                        <p> Our executive will get
+                                            in touch with you soon.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success"
+                                            data-bs-dismiss="modal">Thank You <i class="fa-solid fa-handshake-simple"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-5 col-12">
+                    <div class="nextdiv">
+                        <h2 class="forms-heading">What Will Be The Next Step?</h2>
+                        <p>One of our executive will get in touch with you to gather your requirement.</p>
+                        <p>We will analyse the requirement and schedule a virtual demo.</p>
+                        <p>The demo is done adhering to all the requisite parameters.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section ends -->
+
+    <!-- Footer starts -->
+    <footer class="footer-module">
+        <div class="address-module">
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col offices uae">
+                        <h6 class="office-heading">Beinex - UAE</h6>
+                        <p class="office-content">506, BB01, Bay Square,</p>
+                        <p class="office-content"> Business Bay,</p>
+                        <p class="office-content"> P. O. Box 82940,</p>
+                        <p class="office-content"> Dubai, United Arab Emirates</p>
+                        <p class="office-content"> Phone: +971 4 243 9494</p>
+                        <p class="office-content"> Mobile: +971 52 695 0068</p>
+                        <p class="office-content"> Email: Info@beinex.com</p>
+                    </div>
+                    <div class="col offices qatar">
+                        <h6 class="office-heading">Beinex - Qatar</h6>
+                        <p class="office-content">Global Business Centre II,</p>
+                        <p class="office-content">Office No. R19, 2nd floor Al</p>
+                        <p class="office-content">Hitmi Village, Building No 40,</p>
+                        <p class="office-content"> Cornish Road, Doha, Qatar</p>
+                        <p class="office-content"> P.O Box 25422</p>
+                        <p class="office-content"> Office: +974 44023981</p>
+                        <p class="office-content"> Phone: +974 50682589</p>
+                        <p class="office-content"> Email: info@beinex.qa</p>
+                    </div>
+                    <div class="col offices uk">
+                        <h6 class="office-heading">Beinex - United Kingdom</h6>
+                        <p class="office-content">New Broad Street House</p>
+                        <p class="office-content"> 35 New Broad St</p>
+                        <p class="office-content"> London England EC2M 1NH</p>
+                        <p class="office-content"> Phone: +44 7539 393552</p>
+                        <p class="office-content"> Email: UK@beinex.com</p>
+                    </div>
+                    <div class="col offices india">
+                        <h6 class="office-heading">Beinex - India (Kochi)</h6>
+                        <p class="office-content">#19, Ground Level</p>
+                        <p class="office-content">Infopark TBC, JNI Stadium</p>
+                        <p class="office-content">Kaloor, Kochi</p>
+                        <p class="office-content">Kerala 682017, India</p>
+                        <p class="office-content">Office: +91 484 4855800</p>
+                        <p class="office-content">Mobile: +91 920 7204499</p>
+                        <p class="office-content">Mobile: +91 952 6451099</p>
+                        <p class="office-content">Email: Info@beinex.com</p>
+                    </div>
+                    <div class="col offices kenya">
+                        <h6 class="office-heading">Beinex - Kenya</h6>
+                        <p class="office-content">Beinex Consulting Ltd</p>
+                        <p class="office-content"> Purshottam Place, 7th floor,</p>
+                        <p class="office-content"> Westlands Rd, Museum Hill</p>
+                        <p class="office-content"> P. O. Box 66217 00800,</p>
+                        <p class="office-content"> Nairobi, Kenya.</p>
+                        <p class="office-content">Phone: +254 020 515 4016</p>
+                        <p class="office-content">Email: Info@beinex.com</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="links-module">
+            <div class="container newsletter">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 col-12 g-0 news-text">
+                        <h4 class="newsletter-head">Subscribe to our newsletter</h4>
+                        <p class="newsletter-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ac
+                            facilisis.</p>
+                    </div>
+                    <div class="col-md-6 col-12 g-0 news-input d-flex justify-content-start">
+                        <input class="newsletter-input" type="text" placeholder="your email address">
+                        <button class="newsletter-btn"><i class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container footerlinks">
+                <div class="row justify-content-evenly align-items-start">
+                    <div class="col-sm-4 col-lg-2 link-groups">
+                        <a class="bottom-logo" href="./index.html" title="Beinex"><img
+                                src="./assets/images/whitelogo.jpg" width="120px" height="29px" alt="logo"></a>
+                        <a class="linkgoup-1 mt-4" href="#" title="About Beinex">About Beinex</a>
+                        <a class="linkgoup-1" href="#" title="Careers">Careers</a>
+                        <a class="linkgoup-1" href="#" title="Press Releases">Press Releases</a>
+                        <a class="linkgoup-1" href="#" title="Beinex in the News">Beinex in the News</a>
+                    </div>
+                    <div class="col-sm-8 col-lg-4 borderdiv  link-groups">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p class="links-heading">Our Services</p>
+
+                                <a class="linkgoup-1" href="#" title="Advanced Analytics">Advanced Analytics</a>
+                                <a class="linkgoup-1" href="#" title="AI /ML/RPA">AI /ML/RPA</a>
+                                <a class="linkgoup-1" href="#" title="Alteryx APA">Alteryx APA</a>
+                                <a class="linkgoup-1" href="#" title="Audit Analytics">Audit Analytics</a>
+                                <a class="linkgoup-1" href="#" title="Beinex Digital">Beinex Digital</a>
+                                <a class="linkgoup-1" href="#" title="Business Intelligence">Business Intelligence</a>
+                            </div>
+                            <div class="col">
+                                <a class="linkgoup-1" href="#" title="Competitive Intelligence">Competitive
+                                    Intelligence</a>
+                                <a class="linkgoup-1" href="#" title="Modern Cloud Analytics">Modern Cloud Analytics</a>
+                                <a class="linkgoup-1" href="#" title="Risk Analytics">Risk Analytics</a>
+                                <a class="linkgoup-1" href="#" title="Tableau">Tableau</a>
+                                <a class="linkgoup-1" href="#" title="Tableau Support Services">Tableau Support
+                                    Services</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-4 col-lg-2 borderdiv link-groups">
+                        <p class="links-heading">Our Industries</p>
+                        <a class="linkgoup-1" href="#" title="Finance">Finance</a>
+                        <a class="linkgoup-1" href="#" title="Human Resources">Human Resources</a>
+                        <a class="linkgoup-1" href="#" title="Procurement">Procurement</a>
+                        <a class="linkgoup-1" href="#" title="Sales">Sales</a>
+                    </div>
+                    <div class="col-sm-8 col-lg-4 borderdiv link-groups">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p class="links-heading">Our Partners</p>
+                                <a class="linkgoup-1" href="#" title="Tableau">Tableau</a>
+                                <a class="linkgoup-1" href="#" title="Alteryx">Alteryx</a>
+                                <a class="linkgoup-1" href="#" title="AURAA">AURAA</a>
+                                <a class="linkgoup-1" href="#" title="Amazon Web Services">Amazon Web Services</a>
+                            </div>
+                            <div class="col">
+                                <a class="linkgoup-1" href="#" title="Microsoft Azure">Microsoft Azure</a>
+                                <a class="linkgoup-1" href="#" title="Snowflake">Snowflake</a>
+                                <a class="linkgoup-1" href="#" title="Salesforce">Salesforce</a>
+                                <a class="linkgoup-1" href="#" title="Alation">Alation</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="basefooter-module">
+            <div class="container">
+                <div class="baselinks">
+                    <a href="#" title="Privacy Policy">Privacy Policy</a>
+                    <a href="#" class="blink" title="Terms of Use">Terms of Use</a>
+                    <a href="#" class="blink" title="Cookie Policy">Cookie Policy</a>
+                </div>
+                <div class="smlinks">
+                    <a href="#" title="linkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" title="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" title="twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" title="instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <p>Copyright @ 2022 - 23 Beinex</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Footer ends -->
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</html>

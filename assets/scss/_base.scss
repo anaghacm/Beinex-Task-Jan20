@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    line-height: $font-lg;
+}
+
+section {
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+}
+
+
+@keyframes rotbdg {
+    0% {
+        rotate: 30deg;
+    }
+
+    20% {
+        rotate: -30deg;
+    }
+
+    40% {
+        rotate: 15deg;
+    }
+
+    60% {
+        rotate: -15deg;
+    }
+
+    80% {
+        rotate: 5deg;
+    }
+
+    90% {
+        rotate: -5deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}

@@ -1,0 +1,109 @@
+.casestudy-module {
+    padding-top: 150px;
+    position: relative;
+    margin-top: -150px;
+    z-index: 6;
+    color: $color-white;
+    background-image: url('../images/casestudy.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $color-white;
+
+    .redshift-text {
+        letter-spacing: 3px;
+        font-weight: 300;
+        margin-bottom: $spacer-0;
+        font-size: $font-sm;
+    }
+
+    .casestudy-head {
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .casestudy-line {
+        width: 280px;
+        height: 1px;
+        opacity: 1;
+        background-color: $color-primary;
+        margin-left: $spacer-2;
+    }
+
+    .casestudy-right {
+        font-size: $font-sm;
+        font-weight: 300;
+        line-height: 24px;
+    }
+
+    .information-div {
+        padding: $spacer-4 $spacer-0;
+
+        .carousel{
+            position: relative;
+            .carousel-indicators{
+                position: absolute;
+                bottom: -60px;
+            }
+        }
+
+        .carousel-item {
+            background-color: rgba(25, 68, 127, 0.8);
+            padding: 70px $spacer-2 $spacer-3;
+        }
+
+        .heading {
+            font-size: $font-lg;
+            font-weight: 600;
+            padding-top: $spacer-2;
+            padding-bottom: $spacer-2;
+        }
+
+        .content {
+            font-size: $font-sm;
+            font-weight: 300;
+            padding: 0;
+            margin: 0;
+            line-height: 20px;
+            color: $color-white;
+        }
+
+        .border-col {
+            border-left: 1px solid $color-white;
+        }
+
+        .carousel-list {
+            list-style: square;
+            color: $color-hover;
+            font-size: 24px;
+        }
+        .carousel-icon{
+            font-size: 50px;
+            color: $color-hover;
+        }
+    }
+
+}
+
+@include tablet{
+    .casestudy-module{
+        .casestudy-right{
+            padding-top: $spacer-2;
+        }
+        .information-div{
+            .border-col{
+                border-left: none;
+                border-top:  1px solid $color-white;;
+            }
+            .carousel-item{
+                padding-top: $spacer-3;
+            }
+            .content{
+                padding-bottom: $spacer-3;
+            }
+            .carousel-icon{
+                padding-top: $spacer-3;
+            }
+        }
+    }
+}
